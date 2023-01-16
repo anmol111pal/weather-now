@@ -1,0 +1,17 @@
+.flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 150px;
+    height: 150px;
+    align-items: center;
+    border: 2px solid blue;
+}
+
+.flex img, h3 {
+    padding: 10px 0px;
+}
+
+.flex h3{
+    text-align: center;
+}
