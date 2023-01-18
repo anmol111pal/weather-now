@@ -80,7 +80,7 @@ function App() {
 		<>
 			<section className="main">
 				<section className="left-sec">
-					<h1 className="heading">Weather Now </h1>
+					<a href="/" title="Weather Now" className="heading">Weather Now </a>
 				</section>
 
 				<section className="right-sec">

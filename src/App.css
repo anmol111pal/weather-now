@@ -14,6 +14,12 @@
   align-items: center;
 }
 
+a{
+  text-decoration: none;
+  font-size: 2rem;
+  color: black;
+}
+
 .main .left-sec {
   width: 50%;
   align-self: flex-start;
