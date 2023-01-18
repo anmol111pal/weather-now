@@ -16,7 +16,7 @@ const Footer = () => {
     <div className="footer">
         <a title="Anmol on Linkedin" href="https://www.linkedin.com/in/anmol-pal/" target="_blank"><img src={Linkedin} style={styling} alt="Anmol on Linkedin" /></a>
 
-        <a title="Anmol on Github" href="https://www.github/com/anmol111pal/" target="_blank"><img src={Github} style={styling} alt="Anmol on Github" /></a>
+        <a title="Anmol on Github" href="https://www.github.com/anmol111pal/" target="_blank"><img src={Github} style={styling} alt="Anmol on Github" /></a>
 
         <a title="Anmol on Instagram" href="https://www.instagram.com/_anmolpal_" target="_blank"><img src={Instagram} style={styling} alt="Anmol on Instagram"/></a>
 
