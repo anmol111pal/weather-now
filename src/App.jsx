@@ -20,12 +20,12 @@ function App() {
 	const [wind_dir, set_wind_dir] = useState("")
 
 	const API_KEY = "0c108ef0a8ac44608d695943212508";
-	let URL = "http://api.weatherapi.com/v1/current.json?key=" + API_KEY + "&q=";
+	let URL = "https://api.weatherapi.com/v1/current.json?key=" + API_KEY + "&q=";
 
 	function showPos(pos) {
 		const lat = pos.coords.latitude;
 		const long = pos.coords.longitude;
-		URL = "http://api.weatherapi.com/v1/current.json?key=" + API_KEY + "&q=" + lat + "," + long; // URL with latitude and longitude
+		URL = "https://api.weatherapi.com/v1/current.json?key=" + API_KEY + "&q=" + lat + "," + long; // URL with latitude and longitude
 		getData(URL);
 	}
 
@@ -39,7 +39,7 @@ function App() {
 
 	const handleInput = () => {
 		if (city !== "") {
-			URL = "http://api.weatherapi.com/v1/current.json" + "?key=" + API_KEY + "&q=" + city;
+			URL = "https://api.weatherapi.com/v1/current.json" + "?key=" + API_KEY + "&q=" + city;
 			getData(URL);
 		}
 		else {
