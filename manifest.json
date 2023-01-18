@@ -1,0 +1,9 @@
+{
+  "short_name": "Weather - Now",
+  "name": "A weather app built using React.js",
+  "icons": [],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
